@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'development' && module.hot) {
 		root = render(<New />, elem, root);
 	});
 } else if (process.env.NODE_ENV === 'production') {
-	window.ga = new GAnalytics('UA-XXXXXXXX-X');
+	// window.ga = new GAnalytics('UA-XXXXXXXX-X');
 
 	// Additional production-specific code...
 }
